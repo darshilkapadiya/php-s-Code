@@ -1,0 +1,39 @@
+// Practical 1 
+
+
+<?php
+$a = 10;
+$b = 20;
+$add = $a+$b;
+$mul = $a*$b;
+$div = $a/$b;
+$sub = $a-$b;
+
+echo "<p align = 'center'>Arithmetic Operators</p>";	
+echo "<table border = '5' align = 'center'> <th>a</th> <th>operator</th> <th>b</th> <th> Performance </th> 
+	<tr><td>$a</td><td align='center' >+</td><td>$b</td><td>$add</td>
+	<tr><td>$a</td><td align='center'>*</td><td>$b</td><td>$mul</td>
+	<tr><td>$a</td><td align='center'>/</td><td>$b</td><td>$div</td>
+	<tr><td>$a</td><td align='center'>-</td><td>$b</td><td>$sub</td></table>";
+
+$and = $a&&$b;
+$or = $a||$b;
+$not = $a!=$b;
+echo "<p align = 'center'>Logical Operators</p>";	
+echo "<table border = '5' align = 'center'> <th>a</th> <th>operator</th> <th>b</th> <th> Performance </th> 
+	<tr><td>$a</td><td align='center' >&&</td><td>$b</td><td>$and</td>
+	<tr><td>$a</td><td align='center'>||</td><td>$b</td><td>$or</td>
+	<tr><td>$a</td><td align='center'>!</td><td>$b</td><td>$not</td></table>";
+
+$equal = $a==$b;
+$greater = $a>$b;
+$less = $a<$b;	
+
+echo "<p align = 'center'>Comparison Operators</p>";	
+echo "<table border = '5' align = 'center'> <th>a</th> <th>operator</th> <th>b</th> <th> Performance </th> 
+	<tr><td>$a</td><td align='center' >==</td><td>$b</td><td>$equal</td>
+	<tr><td>$a</td><td align='center'>></td><td>$b</td><td>$greater</td>
+	<tr><td>$a</td><td align='center'><</td><td>$b</td><td>$less</td></table>";
+
+
+?>
