@@ -1,0 +1,15 @@
+<?php     
+echo"<font size='5px'>";    
+echo "Government Polytechnic Ahmedabad (617) <br/>";     
+echo "Information Technology <br/>";     
+echo "6<sup>th</sup> Sem-Evening <br/>"; 
+echo "166170316527<br/>";     
+echo "Darshil kapadiya <br/>";     
+echo "<b>Practical Aim:-<b/> Write PHP Script to generate result and display grade.</font><br/>";
+
+function display()
+{
+	echo "<font size='5px'> Display() Function was called</font>";
+}
+display();
+?>
