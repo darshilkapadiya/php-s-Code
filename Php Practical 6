@@ -1,0 +1,76 @@
+
+// HTML surce code
+
+
+<html>     
+<head>         
+	<title>Maximum</title>     
+</head>     
+<body>         
+	<form action="p6.php" method="POST">             
+		<table>                 
+			<tr>                     
+				<th></th>                     
+				<th colspan="2" align="left">First Matrix</th>
+				<th>Second Matirx</th>                 
+			</tr>                 
+			<tr>                     
+				<td>Number 1:</td>                     
+				<td><input type="text" name="l1"></td>                     
+				<td align="right">Number 1:</td>                     
+				<td align="right"><input type="text" name="m1"></td>                 
+			</tr>                 
+			<tr>                     
+				<td>Number 2:</td>                     
+				<td><input type="text" name="l2"></td>                     
+				<td align="right">Number 2:</td>                     
+				<td align="right"><input type="text" name="m2"></td>                 
+			</tr>                 
+			<tr>                     
+				<td>Number 3:</td>                     
+				<td><input type="text" name="l3"></td>                     
+				<td align="right">Number 3:</td>                     
+				<td align="right"><input type="text" name="m3"></td>                 
+			</tr>                 
+			<tr>                     
+				<td>Number 4:</td>                     
+				<td><input type="text" name="l4"></td>                     
+				<td align="right">Number 4:</td>                     
+				<td align="right"><input type="text" name="m4"></td>                 
+			</tr>                 
+			<tr>                     
+				<td></td>                     
+				<td align="center"><input type="submit" name="Submit"></td>                 
+			</tr> 
+
+            </table>         
+</body> 
+</html>
+
+//PHP code 
+
+<?php
+echo "<font size='5'>Government polytechnic(617)<br>";
+echo "Information Technology<br>";
+echo "6th semester evening<br>";
+echo "166170316527<br>";
+echo "Darshilkapadiya<br>";
+echo "<b>Practical Aim:-</b>Write PHP Script for addition of two 2x2 matrices</font><br>";
+
+  $a1=$_POST["l1"];    
+  $a2=$_POST["l2"];     
+  $a3=$_POST["l3"];     
+  $a4=$_POST["l4"];     
+  $b1=$_POST["m1"];     
+  $b2=$_POST["m2"];     
+  $b3=$_POST["m3"];     
+  $b4=$_POST["m4"]; 
+ 
+$c1 = $a1+$b1;     
+$c2 = $a2+$b2;     
+$c3 = $a3+$b3;     
+$c4 = $a4+$b4;     
+    echo "<h2>Addition of Two Matrix Are....</h2></br>";     
+    echo "<font size='20'><table width='10%' border='2'><tr><td>".$c1."</td><td>".$c2."</td></tr>";     
+    echo "<tr><td>".$c3."</td><td>".$c4."</td></tr></table></font>"; 
+?>
